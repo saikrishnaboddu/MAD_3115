@@ -6,10 +6,16 @@
 //
 
 import Foundation
+import UIKit
 class Restaurant{
+    init(RestName: String = "", RestImage: UIImage) {
+        self.RestName = RestName
+        self.RestImage = RestImage
+    }
+    
     
     var RestName=""
-    var RestLocation=""
+    var RestImage:UIImage
     
     
 }

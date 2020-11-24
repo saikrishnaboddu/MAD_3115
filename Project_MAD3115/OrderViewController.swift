@@ -8,6 +8,8 @@
 import UIKit
 
 class OrderViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
+    @IBOutlet weak var RestName: UILabel!
+    var restName=""
     var planSelected=""
     var mealTimeSelected=[String]()
     var mealTypeSelected=""
@@ -32,11 +34,13 @@ class OrderViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
     @IBOutlet weak var dinnerButton: UIButton!
     @IBOutlet weak var vegButton: UIButton!
     @IBOutlet weak var nonVegButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         plansPicker.delegate=self
         plansPicker.dataSource=self
         planSelected=plans[0]
+        RestName.text=restName
         // Do any additional setup after loading the view.
     }
     
