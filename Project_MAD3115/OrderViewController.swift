@@ -36,6 +36,7 @@ class OrderViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDat
         super.viewDidLoad()
         plansPicker.delegate=self
         plansPicker.dataSource=self
+        planSelected=plans[0]
         // Do any additional setup after loading the view.
     }
     

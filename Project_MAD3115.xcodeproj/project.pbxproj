@@ -16,6 +16,7 @@
 		83A75D61256C304400163C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A75D5F256C304400163C01 /* LaunchScreen.storyboard */; };
 		83A75D6C256C304400163C01 /* Project_MAD3115Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A75D6B256C304400163C01 /* Project_MAD3115Tests.swift */; };
 		83A75D77256C304400163C01 /* Project_MAD3115UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A75D76256C304400163C01 /* Project_MAD3115UITests.swift */; };
+		83BE2D3A256D2E11000F60A1 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE2D39256D2E11000F60A1 /* RestaurantViewController.swift */; };
 		83F12BAF256CF15F00F1E294 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F12BAE256CF15F00F1E294 /* OrderViewController.swift */; };
 		83F12BB4256CF85F00F1E294 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F12BB3256CF85F00F1E294 /* CheckOutViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		83A75D72256C304400163C01 /* Project_MAD3115UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_MAD3115UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A75D76256C304400163C01 /* Project_MAD3115UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MAD3115UITests.swift; sourceTree = "<group>"; };
 		83A75D78256C304400163C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BE2D39256D2E11000F60A1 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		83F12BAE256CF15F00F1E294 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		83F12BB3256CF85F00F1E294 /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				83A75D56256C304000163C01 /* SceneDelegate.swift */,
 				83A75D58256C304000163C01 /* ViewController.swift */,
 				83A75D5A256C304000163C01 /* Main.storyboard */,
+				83BE2D39256D2E11000F60A1 /* RestaurantViewController.swift */,
 				83F12BB3256CF85F00F1E294 /* CheckOutViewController.swift */,
 				83F12BAE256CF15F00F1E294 /* OrderViewController.swift */,
 				83860CC1256C3B9F00F15B27 /* Restaurant.swift */,
@@ -269,6 +272,7 @@
 			files = (
 				83F12BB4256CF85F00F1E294 /* CheckOutViewController.swift in Sources */,
 				83860CC2256C3B9F00F15B27 /* Restaurant.swift in Sources */,
+				83BE2D3A256D2E11000F60A1 /* RestaurantViewController.swift in Sources */,
 				83F12BAF256CF15F00F1E294 /* OrderViewController.swift in Sources */,
 				83A75D59256C304000163C01 /* ViewController.swift in Sources */,
 				83A75D55256C304000163C01 /* AppDelegate.swift in Sources */,

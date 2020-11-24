@@ -99,7 +99,7 @@
         <!--Restaurants-->
         <scene sceneID="gDL-f4-k3s">
             <objects>
-                <viewController title="Restaurants" modalPresentationStyle="fullScreen" id="Veq-Qi-ssh" sceneMemberID="viewController">
+                <viewController title="Restaurants" modalPresentationStyle="fullScreen" id="Veq-Qi-ssh" customClass="RestaurantViewController" customModule="Project_MAD3115" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oZv-Dx-85W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,7 +372,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bmn-LM-dmD"/>
+        <segue reference="5BN-9x-CaZ"/>
         <segue reference="CrK-PW-zbO"/>
         <segue reference="NxJ-93-G2I"/>
     </inferredMetricsTieBreakers>

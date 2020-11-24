@@ -10,7 +10,7 @@ import UIKit
 class CheckOutViewController: UIViewController {
     var mealTime=[String]()
     var mealType=""
-    var mealPlan=""
+    var mealPlan="Weekly"
     @IBOutlet weak var OrderSummary: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
