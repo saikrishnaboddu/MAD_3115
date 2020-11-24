@@ -10,12 +10,15 @@ import UIKit
 class CheckOutViewController: UIViewController {
     var mealTime=[String]()
     var mealType=""
-    var mealPlan=""
+    var mealPlan="Weekly"
+    var entireMeal=""
     @IBOutlet weak var OrderSummary: UITextView!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        OrderSummary.text="Plan-Selected:\(mealPlan)\n\nMeal-Time:\(mealTime)\n\nMealType:\(mealType)"
+        //OrderSummary.text="Plan-Selected:\(mealPlan)\n\nMeal-Time:\(mealTime)\n\nMealType:\(mealType)"
         // Do any additional setup after loading the view.
+        OrderSummary.text=mealtime()
     }
     
 
@@ -27,7 +30,14 @@ class CheckOutViewController: UIViewController {
             
         self.present(alert, animated: true, completion: nil)
     }
-    
+    func mealtime()->String{
+        entireMeal="Plan-Selected:\(mealPlan)\n\nMeal-Time:"
+        for meal in mealTime{
+            entireMeal += meal+","
+        }
+        entireMeal += "\n\nMealType:\(mealType)"
+        return entireMeal
+    }
     /*
     // MARK: - Navigation
 
